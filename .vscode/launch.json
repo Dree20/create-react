@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch npm install",
+      "runtimeExecutable": "npm",
+      "args": ["install", "package"],
+      "cwd": "${workspaceFolder}",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}
